@@ -60,3 +60,21 @@ Example network path:
 
 ```text
 \\192.168.10.3\Students
+
+## Troubleshooting
+
+Encountered a permission issue while testing write access to the network share.
+
+The client was able to access the `Students` share, but attempting to create a file resulted in a Windows permission error.
+
+### Share Permission Troubleshooting
+
+![Share Permission Troubleshooting](./screenshots/it-share-error.png)
+
+Troubleshooting included:
+
+- Verifying domain credentials
+- Checking share permissions
+- Checking NTFS permissions
+- Verifying the network share existed
+- Testing connectivity to the Windows Server
