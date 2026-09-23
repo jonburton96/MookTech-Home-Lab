@@ -52,23 +52,23 @@ Additional troubleshooting involved DNS resolution, domain credentials, and netw
 
 ### Active Directory Users and Computers
 
-![Active Directory Users and Computers](./Part-2-Active-Directory/screenshots/active-directory.png)
+![Active Directory Users and Computers](./screenshots/active-directory.png)
 
 ### Domain Users
 
-![Domain Users](./Part-2-Active-Directory/screenshots/domain-users.png)
+![Domain Users](./screenshots/domain-users.png)
 
 ### DNS Manager
 
-![DNS Manager](./Part-2-Active-Directory/screenshots/dns-manager.png)
+![DNS Manager](./screenshots/dns-manager.png)
 
 ### Domain-Joined Client
 
-![Domain Joined Client](./Part-2-Active-Directory/screenshots/domain-joined-client.png)
+![Domain Joined Client](./screenshots/domain-joined-client.png)
 
 ### Domain Login
 
-![Domain Login](./Part-2-Active-Directory/screenshots/domain-login.png)
+![Domain Login](./screenshots/domain-login.png)
 
 ## What I Learned
 
