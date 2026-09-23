@@ -38,12 +38,25 @@ Created domain users and assigned them to appropriate security groups.
 
 User accounts were managed through Active Directory Users and Computers.
 
-## Shared Folders
+### Shared Folders
 
-Created departmental shared folders on the Windows Server.
+![Shared Folders](./screenshots/shared-folders.png)
+
+## Permissions
+
+Configured NTFS permissions to control access to shared resources.
+
+Permissions were assigned using Active Directory security groups rather than individual users where appropriate.
+
+### NTFS Permissions
+
+![NTFS Permissions](./screenshots/ntfs-permissions.png)
+
+## Access Testing
+
+Tested access to the `Students` network share from a domain-joined Windows 11 client.
+
+Example network path:
 
 ```text
-C:\Shares\
-├── HR
-├── IT
-└── Students
+\\192.168.10.3\Students
