@@ -10,9 +10,13 @@ Created Organizational Units in Active Directory to organize users and resources
 
 The following OUs were created:
 
-- `IT`
-- `HR`
-- `Employees`
+- `HR-Staff`
+- `IT-Staff`
+- `Students`
+
+### Organizational Units
+
+![Organizational Units](./screenshots/organizational-units.png)
 
 ## Security Groups
 
@@ -23,6 +27,10 @@ Created security groups to manage access based on organizational roles.
 - `Student-Users`
 
 Groups were configured as Global Security groups within Active Directory.
+
+### Security Groups
+
+![Security Groups](./screenshots/security-groups.png)
 
 ## User Management
 
