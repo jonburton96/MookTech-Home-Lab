@@ -38,6 +38,19 @@ Created domain users and assigned them to appropriate security groups.
 
 User accounts were managed through Active Directory Users and Computers.
 
+## Shared Folders
+
+Created departmental shared folders on the Windows Server.
+
+```text
+C:\Shares\
+├── HR
+├── IT
+└── Students
+```
+
+The folders were configured as Windows network shares for access from domain-joined clients.
+
 ### Shared Folders
 
 ![Shared Folders](./screenshots/shared-folders.png)
@@ -60,6 +73,13 @@ Example network path:
 
 ```text
 \\192.168.10.3\Students
+```
+
+The Students share was successfully accessed from the client.
+
+### Successful Share Access
+
+![Successful Share Access](./screenshots/successful-share-access.png)
 
 ## Troubleshooting
 
@@ -78,3 +98,15 @@ Troubleshooting included:
 - Checking NTFS permissions
 - Verifying the network share existed
 - Testing connectivity to the Windows Server
+
+## What I Learned
+
+- Active Directory Organizational Units
+- Security groups
+- Domain user management
+- NTFS permissions
+- SMB network shares
+- Share permissions
+- Role-based access control
+- Windows authentication
+- File-sharing troubleshooting
